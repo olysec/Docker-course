@@ -1,0 +1,212 @@
+    1   | 26/01/17 - 09:27:02 | su serpro
+    2   | 09/03/18 - 16:20:10 | ifconfig
+    3   | 09/03/18 - 16:30:20 | su serpro
+    4   | 09/03/18 - 16:36:33 | ifconfig
+    5   | 12/03/18 - 07:34:40 | q~~ 
+    6   | 12/03/18 - 14:13:34 | ifconfig
+    7   | 27/03/18 - 11:11:36 | ping dessolucoes.corporativo.serpro
+    8   | 27/03/18 - 11:11:42 | telnet dessolucoes.corporativo.serpro 80
+    9   | 27/03/18 - 11:11:45 | telnet dessolucoes.corporativo.serpro 443
+   10   | 27/03/18 - 11:12:11 | tracert -d dessolucoes.corporativo.serpro
+   11   | 27/03/18 - 11:12:17 | traceroute -d dessolucoes.corporativo.serpro
+   12   | 27/03/18 - 11:12:21 | sudo su
+   13   | 27/03/18 - 11:20:14 | traceroute -d dessolucoes.corporativo.serpro
+   14   | 27/03/18 - 11:20:19 | ping dessolucoes.corporativo.serpro
+   15   | 27/03/18 - 11:21:06 | telnet 10.31.22.126 443
+   16   | 27/03/18 - 11:22:30 | ifconfig 
+   17   | 27/03/18 - 11:22:48 | ping dessolucoes.corporativo.serpro
+   18   | 27/03/18 - 11:23:09 | telnet dessolucoes.corporativo.serpro 443
+   19   | 27/03/18 - 11:25:53 | telnet dessolucoes.corporativo.serpro 80
+   20   | 27/03/18 - 11:25:58 | telnet dessolucoes.corporativo.serpro 443
+   21   | 27/03/18 - 11:26:44 | ifconfig 
+   22   | 27/03/18 - 11:27:04 | telnet dessolucoes.corporativo.serpro 443
+   23   | 27/03/18 - 11:28:01 | ping dessolucoes.corporativo.serpro
+   24   | 27/03/18 - 11:28:23 | traceroute dessolucoes.corporativo.serpro
+   25   | 27/03/18 - 11:28:29 | ping dessolucoes.corporativo.serpro
+   26   | 27/03/18 - 14:27:39 | ifconfig 
+   27   | 27/03/18 - 14:28:28 | telnet 10.139.2.92 80
+   28   | 27/03/18 - 14:28:31 | telnet 10.139.2.92 443
+   29   | 27/03/18 - 14:30:49 | ping dessolucoes.corporativo.serpro
+   30   | 27/03/18 - 14:31:21 | telnet 10.139.2.92 443
+   31   | 27/03/18 - 14:31:25 | telnet 10.139.2.92 80
+   32   | 27/03/18 - 14:32:15 | ifconfig 
+   33   | 27/03/18 - 14:32:19 | netstat -rn
+   34   | 27/03/18 - 14:32:44 | arp -an
+   35   | 27/03/18 - 15:06:13 | telnet 10.139.2.92 443
+   36   | 27/03/18 - 15:29:36 | ping dessolucoes.corporativo.serpro
+   37   | 27/03/18 - 15:30:13 | telnet 10.139.2.92 443
+   38   | 27/03/18 - 15:30:22 | ping dessolucoes.corporativo.serpro
+   39   | 27/03/18 - 15:32:22 | telnet 10.139.2.92 443
+   40   | 27/03/18 - 15:32:24 | ping dessolucoes.corporativo.serpro
+   41   | 27/03/18 - 15:33:53 | telnet 10.139.2.92 443
+   42   | 27/03/18 - 15:33:59 | telnet 10.139.2.92 80
+   43   | 27/03/18 - 15:36:28 | telnet 10.139.2.92 443
+   44   | 27/03/18 - 15:43:40 | telnet 10.139.2.92 80
+   45   | 27/03/18 - 15:46:45 | ifconfig 
+   46   | 27/03/18 - 15:54:25 | ping dessolucoes.corporativo.serpro
+   47   | 27/03/18 - 15:56:18 | telnet 10.139.2.92 443
+   48   | 27/03/18 - 16:53:03 | [A
+   49   | 27/03/18 - 16:53:05 | telnet 10.139.2.92 443
+   50   | 03/04/18 - 19:07:00 | ifconfig
+   51   | 09/04/18 - 10:20:45 | docker ps
+   52   | 09/04/18 - 10:40:50 | docker images
+   53   | 09/04/18 - 10:42:13 | docker pull hello-world
+   54   | 09/04/18 - 10:42:20 | docker images
+   55   | 09/04/18 - 10:44:10 | docker run hello-world
+   56   | 09/04/18 - 10:44:26 | docker images
+   57   | 09/04/18 - 10:46:42 | docker ps
+   58   | 09/04/18 - 10:47:04 | docker ps -a
+   59   | 09/04/18 - 11:03:20 | $ docker run -d ubuntu /bin/sh -c "while true; do echo hello world; sleep 1; done"
+   60   | 09/04/18 - 11:03:35 | $sudo  docker run -d ubuntu /bin/sh -c "while true; do echo hello world; sleep 1; done"
+   61   | 09/04/18 - 11:04:56 | docker run -d ubuntu /bin/sh -c "while true; do echo hello world; sleep 1; done"
+   62   | 09/04/18 - 11:05:22 | docker ps
+   63   | 09/04/18 - 11:06:01 | docker stop jolly_northcutt
+   64   | 09/04/18 - 11:06:16 | docker ps
+   65   | 09/04/18 - 11:06:29 | docker start jolly_northcutt
+   66   | 09/04/18 - 11:06:31 | docker ps
+   67   | 09/04/18 - 11:10:32 | docker run -d --name nginx-default nginx:alpine
+   68   | 09/04/18 - 11:10:42 | docker ps
+   69   | 09/04/18 - 11:11:52 | docker rm nginx-default
+   70   | 09/04/18 - 11:11:59 | docker rm nginx-default -f
+   71   | 09/04/18 - 11:12:02 | docker ps
+   72   | 09/04/18 - 11:18:14 | sudo docker run --rm -it remnux/thug bash
+   73   | 09/04/18 - 11:20:41 | docker ps
+   74   | 09/04/18 - 11:21:09 | docker ps -a
+   75   | 09/04/18 - 11:21:50 | docker run -d --name nginx-default nginx:alpine
+   76   | 09/04/18 - 11:21:56 | sudo docker run --rm -it remnux/thug bash
+   77   | 09/04/18 - 11:22:40 | docker ps -a
+   78   | 09/04/18 - 11:23:16 | docker container ls -a
+   79   | 09/04/18 - 11:31:25 | sudo docker run -it remnux/thug bash
+   80   | 09/04/18 - 11:31:41 | docker ps -a
+   81   | 09/04/18 - 11:32:46 | docker exec 61 ls -lai
+   82   | 09/04/18 - 11:33:00 | docker start 61
+   83   | 09/04/18 - 11:33:06 | docker exec 61 ls -lai
+   84   | 09/04/18 - 11:33:32 | docker exec 61 df -h
+   85   | 09/04/18 - 13:12:54 | mkdir stress
+   86   | 09/04/18 - 13:12:58 | cd stress/
+   87   | 09/04/18 - 13:12:59 | ls
+   88   | 09/04/18 - 13:15:31 | vim Dockerfile
+   89   | 09/04/18 - 13:24:48 | docke build -t stress .
+   90   | 09/04/18 - 13:24:56 | docker build -t stress .
+   91   | 09/04/18 - 13:25:03 | vim Dockerfile
+   92   | 09/04/18 - 13:25:14 | docker build -t stress .
+   93   | 09/04/18 - 13:25:21 | vim Dockerfile
+   94   | 09/04/18 - 13:25:50 | docker build -t stress .
+   95   | 09/04/18 - 13:28:36 | docker images
+   96   | 09/04/18 - 13:29:20 | docker run stress
+   97   | 09/04/18 - 13:30:01 | vim Dockerfile
+   98   | 09/04/18 - 13:30:17 | docker run stress
+   99   | 09/04/18 - 13:30:27 | docker images
+  100   | 09/04/18 - 13:30:43 | docker build -t stress .
+  101   | 09/04/18 - 13:31:42 | docker images
+  102   | 09/04/18 - 13:31:54 | vim Dockerfile
+  103   | 09/04/18 - 13:32:12 | docker build -t stress .
+  104   | 09/04/18 - 13:33:37 | docker images
+  105   | 09/04/18 - 13:35:08 | docker history stress
+  106   | 09/04/18 - 13:38:52 | docker images
+  107   | 09/04/18 - 13:39:13 | docker ps -a
+  108   | 09/04/18 - 13:40:11 | docker run -it debian bash
+  109   | 09/04/18 - 13:41:44 | docker ps -a
+  110   | 09/04/18 - 13:41:48 | docker images
+  111   | 09/04/18 - 13:43:19 | docker commit 2b  meuwget:latest
+  112   | 09/04/18 - 13:43:37 | docker commit 2b98c9851a37 meuwget:latest
+  113   | 09/04/18 - 13:45:11 | docker commit 44075d6bc4b meuwget:latest
+  114   | 09/04/18 - 13:45:25 | docker commit e44075d6bc4b meuwget:latest
+  115   | 09/04/18 - 13:45:33 | docker images
+  116   | 09/04/18 - 13:49:23 | docker history nginx:alpine
+  117   | 09/04/18 - 13:53:25 | docker pull centos:7
+  118   | 09/04/18 - 13:54:05 | docker images
+  119   | 09/04/18 - 13:55:01 | docker tag centos:7 default-so:latest
+  120   | 09/04/18 - 13:55:03 | docker images
+  121   | 09/04/18 - 14:05:48 | history
+  122   | 09/04/18 - 14:06:10 | vi Dockerfile 
+  123   | 09/04/18 - 14:14:31 | docker images
+  124   | 09/04/18 - 15:00:22 | cd
+  125   | 09/04/18 - 15:00:30 | mkdir exercises
+  126   | 09/04/18 - 15:00:35 | cd exercises/
+  127   | 09/04/18 - 15:00:36 | ls
+  128   | 09/04/18 - 15:01:07 | vim requirements.txt
+  129   | 09/04/18 - 15:03:27 | vim Dockerfile 
+  130   | 09/04/18 - 15:07:10 | vim exer01
+  131   | 09/04/18 - 15:09:35 | ls
+  132   | 09/04/18 - 15:10:34 | vim Dockerfile 
+  133   | 09/04/18 - 15:13:02 | docker pull python
+  134   | 09/04/18 - 15:13:57 | vim Dockerfile 
+  135   | 09/04/18 - 15:17:40 | docker build .
+  136   | 09/04/18 - 15:17:54 | vim Dockerfile 
+  137   | 09/04/18 - 15:18:10 | docker build .
+  138   | 09/04/18 - 15:19:30 | docker -p
+  139   | 09/04/18 - 15:19:32 | docker -a
+  140   | 09/04/18 - 15:19:36 | docker ps
+  141   | 09/04/18 - 15:20:15 | docker images
+  142   | 09/04/18 - 15:21:52 | vim Dockerfile 
+  143   | 09/04/18 - 15:30:24 | vim requirements.txt 
+  144   | 09/04/18 - 15:31:01 | vim Dockerfile 
+  145   | 09/04/18 - 15:34:07 | vim app.py
+  146   | 09/04/18 - 15:35:16 | vim Dockerfile 
+  147   | 09/04/18 - 15:41:27 | docker build -t oficina-docker:imagem-aula-1 
+  148   | 09/04/18 - 15:42:35 | docker build -t oficina-docker:imagem-aula-1 .
+  149   | 09/04/18 - 15:42:52 | vim Dockerfile 
+  150   | 09/04/18 - 15:43:09 | docker build -t oficina-docker:imagem-aula-1 .
+  151   | 09/04/18 - 15:43:57 | docker ps
+  152   | 09/04/18 - 15:44:25 | vim Dockerfile 
+  153   | 09/04/18 - 15:44:42 | ls
+  154   | 09/04/18 - 15:45:01 | vim Dockerfile 
+  155   | 09/04/18 - 15:45:17 | pwd
+  156   | 09/04/18 - 15:45:30 | vim Dockerfile 
+  157   | 09/04/18 - 15:46:12 | docker build -t oficina-docker:imagem-aula-1 .
+  158   | 09/04/18 - 15:46:29 | docker ps
+  159   | 09/04/18 - 15:46:35 | docker images
+  160   | 09/04/18 - 15:47:25 | docker ps
+  161   | 09/04/18 - 15:47:32 | docker ps -a
+  162   | 09/04/18 - 15:48:22 | docker run ea3fb1ae091a
+  163   | 09/04/18 - 15:48:59 | docker ps -a
+  164   | 09/04/18 - 15:49:25 | docker run -d –name aula-1 -p 5000:5000 oficina-docker:imagem-aula-1.
+  165   | 09/04/18 - 15:49:29 | docker run -d –name aula-1 -p 5000:5000 oficina-docker:imagem-aula-1 .
+  166   | 09/04/18 - 15:49:56 | docker run -d –name aula-1 -p 5000:5000 oficina-docker:imagem-aula-1 
+  167   | 09/04/18 - 15:51:09 | docker run --name aula1 -p 5000:5000 oficina-docker:imagem-aula-1 
+  168   | 09/04/18 - 15:51:54 | docker exec aula-1 ps aux
+  169   | 09/04/18 - 15:52:10 | docker ps
+  170   | 09/04/18 - 15:52:16 | docker images
+  171   | 09/04/18 - 15:52:40 | docker run -d --name aula1 -p 5000:5000 oficina-docker:imagem-aula-1 
+  172   | 09/04/18 - 15:53:03 | docker run -d --name aula2 -p 5000:5000 oficina-docker:imagem-aula-1 
+  173   | 09/04/18 - 15:53:12 | docker ps -a
+  174   | 09/04/18 - 15:54:15 | docker inspect aula-2 | grep IP
+  175   | 09/04/18 - 15:54:20 | docker inspect aula-1 | grep IP
+  176   | 09/04/18 - 15:55:02 | docker logs aula-1
+  177   | 09/04/18 - 15:55:08 | docker logs aula-2
+  178   | 09/04/18 - 15:55:13 | docker logs aula 2
+  179   | 09/04/18 - 15:55:18 | docker logs aula2
+  180   | 09/04/18 - 15:55:23 | docker logs aula1
+  181   | 09/04/18 - 15:55:49 | history > docker-aula01
+  182   | 09/04/18 - 15:56:03 | vim Dockerfile 
+  183   | 09/04/18 - 15:57:40 | docker run oficina-docker:image-aula-1 flask run --help
+  184   | 09/04/18 - 15:57:54 | docker run oficina-docker:imagem-aula-1 flask run --help
+  185   | 09/04/18 - 15:58:01 | vim Dockerfile 
+  186   | 09/04/18 - 15:59:33 | docker build -t oficina-docker:imagem-aula-1 .
+  187   | 09/04/18 - 15:59:51 | docker images
+  188   | 09/04/18 - 16:01:01 | docker ps
+  189   | 09/04/18 - 16:04:34 | docker run -d --name aula-1 -p 5000:5000 oficina-docker:imagem-aula-1 
+  190   | 09/04/18 - 16:04:44 | docker ps
+  191   | 09/04/18 - 16:05:36 | docker ps -a
+  192   | 09/04/18 - 16:07:13 | docker rm fea 48a c58 c8b bf5 0c3 db1 e23 138 
+  193   | 09/04/18 - 16:07:41 | docker rm -f fea 48a c58 c8b bf5 0c3 db1 e23 138 
+  194   | 09/04/18 - 16:07:50 | docker ps -a
+  195   | 09/04/18 - 16:08:06 | docker run -d --name aula-1 -p 5000:5000 oficina-docker:imagem-aula-1 
+  196   | 09/04/18 - 16:08:34 | docker logs aula-1
+  197   | 09/04/18 - 16:35:21 | ls
+  198   | 09/04/18 - 16:35:47 | git init . 
+  199   | 09/04/18 - 16:35:57 | git add .
+  200   | 09/04/18 - 16:36:05 | git status
+  201   | 09/04/18 - 16:37:08 | git comit -m "Aula 1"
+  202   | 09/04/18 - 16:37:20 | git commit -m "Aula 1"
+  203   | 09/04/18 - 16:43:14 | git tag -a aula1 -m "Aula 1- olympio"
+  204   | 09/04/18 - 16:44:18 | git config --global user.email "joseolympio@gmail.com"
+  205   | 09/04/18 - 16:44:42 | git config --global user.name "olysec"
+  206   | 09/04/18 - 16:44:49 | git tag -a aula1 -m "Aula 1- olympio"
+  207   | 09/04/18 - 16:45:48 | git status
+  208   | 09/04/18 - 16:45:55 | git commit -m "Aula 1"
+  209   | 09/04/18 - 16:46:11 | git tag -a aula1 -m "Aula 1- olympio"
+  210   | 09/04/18 - 16:46:52 | git remote add origin https://github.com/olysec/Docker-course.git
+  211   | 09/04/18 - 16:47:14 | git push -u origin master aula1
+  212   | 09/04/18 - 16:48:09 | history > Docker-aula01
