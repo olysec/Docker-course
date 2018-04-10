@@ -1,0 +1,15 @@
+version: '2.2'
+services: 
+  oficina:
+    environment:
+     - DB_ADRESS=db
+
+  db:
+    image: postgres:9.6
+    restart: always    
+    volumes:
+     - data:/var/lib/postgresql/data
+     
+   
+volumes:
+  data:
